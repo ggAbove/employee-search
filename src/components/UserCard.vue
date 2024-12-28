@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits, type PropType, computed } from 'vue';
+import { type PropType, computed } from 'vue';
 import FaImage from '@/components/FaImage.vue'
 import { useUserStore } from '../stores/userStore';
 const userStore = useUserStore();
